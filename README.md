@@ -32,7 +32,9 @@ Screen açıp dosyaları çekelim;
 
 ```bash
 screen -S heurist
+```
 
+```bash
 conda create --name heurist-miner python=3.11 -y
 conda activate heurist-miner
 
@@ -40,7 +42,6 @@ git clone https://github.com/heurist-network/miner-release.git
 cd miner-release
 
 pip install -r requirements.txt
-
 
 ```
 PyTorch ve CUDA'yı Kuralım ( en son true çıkıyorsa başaralı)
