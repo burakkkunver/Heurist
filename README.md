@@ -48,6 +48,9 @@ PyTorch ve CUDA'yı Kuralım ( en son true çıkıyorsa başaralı)
 
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+```
+
+```bash
 python -c "import torch; print(torch.cuda.is_available())"
 
 ```
