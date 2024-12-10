@@ -55,7 +55,7 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 ```
 
-Miner kimliği ve ödüller için biz cüzdan belirleyelim priv key yazıcaz
+Miner kimliği ve ödüller için biz cüzdan belirleyelim public key yazıcaz
 
 ```bash
 nano .env
